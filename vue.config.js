@@ -25,7 +25,7 @@ module.exports = {
       // for vue-cli-plugin electron builder options
       outputDir: 'dist',
       mainProcessFile: 'app/background.js', //  主进程入口
-      // rendererProcessFile: 'pages/src/main.js', //  页面渲染入口
+      rendererProcessFile: 'pages/src/main.js', //  页面渲染入口
       // customFileProtocol:'',   //  改变vue 的 baseUrl 和publicPath
       builderOptions: {
         //  for electron builder options
